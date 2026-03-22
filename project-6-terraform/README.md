@@ -34,4 +34,12 @@ Terraform Code → AWS Provider → EC2 Instance
 A working Terraform configuration that automatically provisioned an EC2 instance in AWS, demonstrating an Infrastructure as Code workflow from configuration to deployment.
 
 ## Architecture Diagram
-![Architecture](architecture-diagram-P6.png)
+
+```mermaid
+flowchart TD
+    A[Terraform Code]
+    B[AWS Provider]
+    C[EC2 Instance]
+
+    A --> B --> C
+```
