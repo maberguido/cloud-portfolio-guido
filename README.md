@@ -1,45 +1,53 @@
-# Guido Martini Bernasconi — Cloud Portfolio
+# Guido Martini Bernasconi — Cloud Engineering Portfolio
 
 ## About Me
 Architect and BIM Coordinator transitioning into Cloud Engineering.  
-This portfolio showcases hands-on AWS projects focused on scalability, security, and high availability.
+This portfolio demonstrates hands-on experience designing and deploying cloud architectures using AWS.
 
 ---
 
-## Projects
+## Cloud Projects
 
-### 1. EC2 Web Server
-- Deployed a web server using EC2 and Nginx  
-- Configured SSH access and security groups  
+### Project 1 — EC2 Web Server
+Basic cloud compute deployment using EC2 and Nginx.  
+➡️ View Project
 
-### 2. VPC Network Design
-- Created custom VPC with public/private subnets  
-- Configured routing and internet access  
+---
 
-### 3. RDS Database
-- Deployed MySQL database in private subnet  
-- Secured access via security groups  
+### Project 2 — Custom VPC & Networking
+Designed a custom network with public and private subnets, routing, and internet access. Extended the architecture by integrating a secure RDS database deployed in a private subnet.  
+➡️ View Project
 
-### 4. Load Balancer
-- Implemented Application Load Balancer  
-- Distributed traffic across EC2  
+---
 
-### 5. Auto Scaling
-- Configured scaling based on CPU usage  
+### Project 3 — High Availability Architecture
+Designed a resilient architecture including load balancing, auto scaling, and multi-region failover using Route 53 and health checks to ensure high availability and fault tolerance.  
+➡️ View Project
 
-### 6. Monitoring
-- Created CloudWatch alarms and SNS alerts  
+---
 
-### 7. Infrastructure as Code
-- Deployed EC2 using Terraform  
+### Project 4 — Serverless Pipeline
+Built an event-driven system using S3, Lambda, and SNS/SQS for automated processing and notifications without managing servers.  
+➡️ View Project
 
-### 8. Serverless Pipeline
-- Built S3 → Lambda → SNS workflow  
+---
 
-### 9. Multi-Region Failover
-- Implemented Route 53 failover with health checks  
+### Project 5 — Monitoring & Alerting
+Configured CloudWatch metrics, alarms, and SNS notifications to monitor system performance and trigger alerts based on defined thresholds.  
+➡️ View Project
+
+---
+
+### Project 6 — Infrastructure as Code (Terraform)
+Automated infrastructure deployment using Terraform, enabling reproducible and scalable cloud environments.  
+➡️ View Project
 
 ---
 
 ## Technologies
-AWS, Terraform, Linux, Bash, Python (learning)
+AWS, Terraform, Linux, Bash, Python (learning), JavaScript (basic)
+
+---
+
+## Objective
+To grow as a Cloud Engineer / Cloud Architect and contribute to scalable, secure, and reliable cloud solut
