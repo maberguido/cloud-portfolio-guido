@@ -7,7 +7,7 @@ This project demonstrates the creation of a custom Virtual Private Cloud (VPC) i
 User → Internet → Internet Gateway → Public Subnet → EC2 Instance → Nginx
 
 ## Architecture Diagram
-![Architecture](architecture-diagram-p2.png)
+![Architecture](architecture-diagram-P2.png)
 
 ## Resources Used
 - Amazon VPC
