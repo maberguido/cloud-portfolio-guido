@@ -34,16 +34,10 @@ A working serverless pipeline where file uploads to S3 automatically trigger Lam
 
 ```mermaid
 flowchart TD
-    A[User]
-    B[Route 53]
-    C[Primary Region - Ireland]
-    D[Load Balancer / Application Endpoint]
-    E[Auto Scaling / EC2]
-    F[Secondary Region - London]
-    G[Backup EC2]
+    A[User Upload]
+    B[S3 Bucket]
+    C[Lambda Function]
+    D[SNS / SQS Notification]
 
-    A --> B
-    B --> C
-    C --> D --> E
-    B -. failover .-> F --> G
+    A --> B --> C --> D
 ```
