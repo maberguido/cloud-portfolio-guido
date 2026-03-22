@@ -14,13 +14,13 @@ Basic cloud compute deployment using EC2 and Nginx.
 
 ---
 
-### Project 2 — Custom VPC & Networking
+### Project 2 — Custom VPC & Networking + RDS
 Designed a custom network with public and private subnets, routing, and internet access. Extended the architecture by integrating a secure RDS database deployed in a private subnet.  
 ➡️ View Project
 
 ---
 
-### Project 3 — High Availability Architecture
+### Project 3 — High Availability + Load Balancer + Auto Scaling + Failover
 Designed a resilient architecture including load balancing, auto scaling, and multi-region failover using Route 53 and health checks to ensure high availability and fault tolerance.  
 ➡️ View Project
 
