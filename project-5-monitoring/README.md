@@ -32,6 +32,9 @@ EC2 Instance → CloudWatch Metrics → Alarm → SNS Notification → Email
 ## Result
 A working monitoring system that detects abnormal CPU usage and sends automated email alerts, enabling proactive system management.
 
+## Supporting Material
+The full implementation process is documented through chronological screenshots available in the `/screenshots` folder for this project.
+
 ## Architecture Diagram
 
 ```mermaid
