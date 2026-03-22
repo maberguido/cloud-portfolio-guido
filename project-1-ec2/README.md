@@ -6,18 +6,6 @@ This project demonstrates the deployment of a basic web server on AWS using EC2.
 ## Architecture
 User → Internet → EC2 Instance → Nginx
 
-## Architecture Diagram
-
-```mermaid
-flowchart TD
-    A[User Browser]
-    B[Internet]
-    C[EC2 Instance]
-    D[Nginx Web Server]
-
-    A --> B --> C --> D
-```
-
 ## Resources Used
 - Amazon EC2
 - Security Group
@@ -40,3 +28,16 @@ flowchart TD
 
 ## Result
 A working web server accessible from the internet through the EC2 public IP.
+
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[User Browser]
+    B[Internet]
+    C[EC2 Instance]
+    D[Nginx Web Server]
+
+    A --> B --> C --> D
+```
+
