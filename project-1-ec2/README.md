@@ -6,6 +6,9 @@ This project demonstrates the deployment of a basic web server on AWS using EC2.
 ## Architecture
 User → Internet → EC2 Instance → Nginx
 
+## Architecture Diagram
+![Architecture](architecture-diagram-P1.png)
+
 ## Resources Used
 - Amazon EC2
 - Security Group
