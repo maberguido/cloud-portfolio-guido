@@ -42,7 +42,16 @@ flowchart TD
     A[User]
     B[Route 53]
     C[Primary Region - Ireland]
-    D[Secondary Region - London]
+    D[Load Balancer / Application Endpoint]
+    E[Auto Scaling / EC2]
+    F[Secondary Region - London]
+    G[Backup EC2]
+
+    A --> B
+    B --> C
+    C --> D --> E
+    B -. failover .-> F --> G
+```
 
     A --> B
     B --> C
