@@ -35,6 +35,9 @@ User → Route 53 → Primary EC2 (Ireland)
 ## Result
 When the primary EC2 instance becomes unavailable, traffic is automatically redirected to the secondary instance, ensuring continuous availability of the application.
 
+## Supporting Material
+The full implementation process is documented through chronological screenshots available in the `/screenshots` folder for this project.
+
 ## Architecture Diagram
 
 ```mermaid
