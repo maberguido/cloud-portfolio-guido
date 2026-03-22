@@ -3,19 +3,10 @@
 ## Overview
 This project demonstrates a highly available architecture using AWS Route 53 failover routing. Two EC2 instances are deployed in different regions, with automatic traffic redirection in case of failure.
 
-## Architecture Diagram
-
-```mermaid
-flowchart TD
-    A[User]
-    B[Route 53]
-    C[Primary Region - Ireland]
-    D[Secondary Region - London]
-
-    A --> B
-    B --> C
-    B -. failover .-> D
-```
+## Architecture
+User → Route 53 → Primary EC2 (Ireland)  
+                     ↓ (if unhealthy)  
+             Secondary EC2 (London)
 
 ## Resources Used
 - Amazon EC2 (2 instances in different regions)
@@ -45,4 +36,15 @@ flowchart TD
 When the primary EC2 instance becomes unavailable, traffic is automatically redirected to the secondary instance, ensuring continuous availability of the application.
 
 ## Architecture Diagram
-![Architecture](architecture-diagram-P3.png)
+
+```mermaid
+flowchart TD
+    A[User]
+    B[Route 53]
+    C[Primary Region - Ireland]
+    D[Secondary Region - London]
+
+    A --> B
+    B --> C
+    B -. failover .-> D
+```
