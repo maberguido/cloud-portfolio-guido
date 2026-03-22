@@ -34,6 +34,9 @@ User → Internet → Internet Gateway → Public Subnet → EC2 Instance → Ng
 ## Result
 A working EC2 instance inside a custom VPC, accessible from the internet through a properly configured network.
 
+## Supporting Material
+The full implementation process is documented through chronological screenshots available in the `/screenshots` folder for this project.
+
 ## Architecture Diagram
 
 ```mermaid
