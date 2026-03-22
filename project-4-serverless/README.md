@@ -30,6 +30,9 @@ User → Amazon S3 → Lambda Function → SNS / SQS Notification
 ## Result
 A working serverless pipeline where file uploads to S3 automatically trigger Lambda execution and downstream notifications without requiring dedicated servers.
 
+## Supporting Material
+The full implementation process is documented through chronological screenshots available in the `/screenshots` folder for this project.
+
 ## Architecture Diagram
 
 ```mermaid
