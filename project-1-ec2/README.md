@@ -29,6 +29,9 @@ User → Internet → EC2 Instance → Nginx
 ## Result
 A working web server accessible from the internet through the EC2 public IP.
 
+## Supporting Material
+The full implementation process is documented through chronological screenshots available in the `/screenshots` folder for this project.
+
 ## Architecture Diagram
 
 ```mermaid
