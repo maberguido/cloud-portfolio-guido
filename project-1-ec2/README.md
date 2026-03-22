@@ -7,7 +7,16 @@ This project demonstrates the deployment of a basic web server on AWS using EC2.
 User → Internet → EC2 Instance → Nginx
 
 ## Architecture Diagram
-![Architecture](architecture-diagram-P1.png)
+
+```mermaid
+flowchart TD
+    A[User Browser]
+    B[Internet]
+    C[EC2 Instance]
+    D[Nginx Web Server]
+
+    A --> B --> C --> D
+```
 
 ## Resources Used
 - Amazon EC2
