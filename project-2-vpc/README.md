@@ -3,24 +3,8 @@
 ## Overview
 This project demonstrates the creation of a custom Virtual Private Cloud (VPC) in AWS, including subnet configuration, internet access, and deployment of an EC2 instance within the network.
 
-## Architecture Diagram
-
-```mermaid
-flowchart TD
-    A[User Browser]
-    B[Internet]
-    C[Internet Gateway]
-    D[Public Subnet]
-    E[EC2 Instance]
-    F[Private Subnet]
-    G[RDS Database]
-
-    A --> B --> C --> D --> E
-    E --> F --> G
-```
-
-## Architecture Diagram
-![Architecture](architecture-diagram-P2.png)
+## Architecture
+User → Internet → Internet Gateway → Public Subnet → EC2 Instance → Nginx
 
 ## Resources Used
 - Amazon VPC
@@ -49,3 +33,19 @@ flowchart TD
 
 ## Result
 A working EC2 instance inside a custom VPC, accessible from the internet through a properly configured network.
+
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[User Browser]
+    B[Internet]
+    C[Internet Gateway]
+    D[Public Subnet]
+    E[EC2 Instance]
+    F[Private Subnet]
+    G[RDS Database]
+
+    A --> B --> C --> D --> E
+    E --> F --> G
+```
